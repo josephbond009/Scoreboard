@@ -1,0 +1,77 @@
+body {
+    background-color: #05093b;
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    height: 99vh;
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.09rem;
+}
+
+#reset {
+    margin: 0;
+    padding: 0;
+}
+
+.btns {
+    background-color: #05093b;
+    border: 0.1rem solid rgb(201, 184, 184);
+    border-radius: 0.3rem;
+    color: rgb(201, 184, 184);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+    height: 11.5vh;
+    width: 13vh;
+}
+
+.board {
+    background-color: black;
+    height: 50vh;
+    width: 60vh;
+}
+
+.ground {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: 500 bolder;
+    font-size: 4.5rem;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    color: white;
+    font-size: 10rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+.score-btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.8rem;
+    margin-bottom: 1.4rem
+}
+
+.reset-btn {
+    background-color: #05093b;
+    border: 0.1rem solid rgb(201, 184, 184);
+    border-radius: 0.3rem;
+    color: rgb(201, 184, 184);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    width: 10rem;
+    height: 5rem;
+    margin-top: 0.1rem 1rem 0 0;
+}
+
+

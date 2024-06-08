@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cover">
+        <div id="container">
+            <div class="home">
+                <h1 class="ground">HOME</h1>
+                <div class="score home-score board">00</div>
+                <div class="score-btn">
+                    <button class="btns home-1-pt" onclick="home1Point()">+1</button>
+                    <button class="btns home-2-pt" onclick="home2Point()">+2</button>
+                    <button class="btns home-3-pt" onclick="home3Point()">+3</button>
+                </div>
+            </div>
+            <div class="guest">
+                <h1 class="ground">GUEST</h1>
+                <div class="score guest-score board">00</div>
+                <div class="score-btn">
+                    <button class="btns guest-1-pt" onclick="guest1Point()">+1</button>
+                    <button class="btns guest-2-pt" onclick="guest2Point()">+2</button>
+                    <button class="btns guest-3-pt" onclick="guest3Point()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id="reset">
+            <button class="reset-btn" onclick="reset()">RESET</button>
+        </div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
